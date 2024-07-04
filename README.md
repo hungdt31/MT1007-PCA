@@ -10,9 +10,13 @@
 
 `venv\Scripts\activate`
 
+### Cập nhật công cụ quản lý gói
+
+`python.exe -m pip install --upgrade pip`
+
 ### Tải các thư viện cần thiết
 
-`pip install requirements.txt`
+`pip install -r requirements.txt`
 
 ## 2. Tìm hiểu
 
