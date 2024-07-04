@@ -17,7 +17,7 @@ class PCA:
     return X_new
     
 if __name__ == "__main__":
-  df = pd.read_csv(r"iris.csv")
+  df = pd.read_csv(r"data/iris.csv")
   X = df[["sepal_length", "sepal_width", "petal_length", "petal_width"]].to_numpy()
   Y = df["species"].to_numpy()
 

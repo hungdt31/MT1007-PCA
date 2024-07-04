@@ -1,6 +1,6 @@
 # Thuật toán giảm chiều dữ liệu PCA
 
-![PCA](image.bmp)
+![PCA](images/image.bmp)
 
 ## Vì sao cần giảm chiều dữ liệu?
 
@@ -8,7 +8,7 @@ Dùng để trực quan dữ liệu, đưa dữ liệu về không gian mới, k
 
 ## Thuật toán PCA (Principal component analysis)
 
-![PCA](PCA-Procedure.png)
+![PCA](images/PCA-Procedure.png)
 
 ## Các thư viện cần thiết
 
@@ -59,7 +59,7 @@ $$\mathbf{Z} = \mathbf{U^T_K} \mathbf{\hat{X}}$$
 X_new = X.dot(U)
 ```
 
-**Với tập dữ liệu [iris.csv](/iris.csv), ta có thể triển khai như sau:**
+**Với tập dữ liệu [iris.csv](data/iris.csv), ta có thể triển khai như sau:**
 
 ```python
 import numpy as np
@@ -98,4 +98,10 @@ if __name__ == "__main__":
 
 **Trực quan hóa dữ liệu trong không gian hai chiều:**
 
-![Figure 1](Figure_1.png)
+![Figure 1](images/Figure_1.png)
+
+## Tài liệu tham khảo
+
+[https://viblo.asia/p/ml-from-scratch-thuat-toan-giam-chieu-du-lieu-pca-7ymJXKMa4kq](https://viblo.asia/p/ml-from-scratch-thuat-toan-giam-chieu-du-lieu-pca-7ymJXKMa4kq)
+
+[https://phamdinhkhanh.github.io/deepai-book/ch_ml/PCA.html](https://phamdinhkhanh.github.io/deepai-book/ch_ml/PCA.html)
